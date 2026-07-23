@@ -1,4 +1,4 @@
-# Project Name Here
+# Ball Tracking Robot
 Replace this text with a brief description (2-3 sentences) of your project. This description should draw the reader in and make them interested in what you've built. You can include what the biggest challenges, takeaways, and triumphs from completing the project were. As you complete your portfolio, remember your audience is less familiar than you are with all that your project entails!
 
 You should comment out all portions of your portfolio that you have not completed yet, as well as any instructions:
@@ -7,7 +7,7 @@ You should comment out all portions of your portfolio that you have not complete
 <!--- Anything between these symbols will not render on the published site -->
 ```
 
-| **Engineer** | **School** | **Area of Interest** | **Grade** |
+
 |:--:|:--:|:--:|:--:|
 | Ethan L | Palo Alto High School | Electrical Engineering | Incoming Junior
 
@@ -43,11 +43,10 @@ For your second milestone, explain what you've worked on since your previous mil
 
 # First Milestone
 
-**Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Hk_1bXw5oVo?si=jYADtwLQSgQXHO5M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-For your first milestone, describe what your project is and how you plan to build it. You can include:
+
 - Currently, my project is comprised of a chasis, motors, a Rasberry Pi, ultrasonic sensors, batteries, and an H-Bridge. First, the chasis is the base of my robot, it allows the robot to move in different directions with the aid of the motors and wheels. Second, the Rasberry Pi acts as the brain, it stores code and information for the ultrasonic sensors and motors to process, in which they can then execute. Lastly, the batteries power the H-Bridge, which allows for a different direction of spin from the motors, altering the way that they can move. 
 - I've constructed a majority of my robot so far, aside from the camera which was defective, the ultrasonic sensors are connected to a Rasberry Pi through a breadboard and wires, and similiarly with the motors and H-Bridge. 
 - A challenge I faced was setting up the ssh. Before connecting the Rasberry Pi remotely to my computer, I had to write information into the Rasberry Pi, giving it a username, hostname and a network to connect to. A problem I had with this was that the Rasberry Pi kept storing old information, stopping any connection to my Mac from happening. I overcame this my rewriting the storage on the Pi and resetting it. For my future milestones, I hope to finish my base project and start adding modifications to it.
@@ -78,7 +77,7 @@ Don't forget to place the link of where to buy each component inside the quotati
 
 | **Part** | **Note** | **Price** | **Link** |
 |:--:|:--:|:--:|:--:|
-| Item Name | What the item is used for | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
+| Rasberry Pi Kit | Brain of the robot | $147.69 | <a href="https://www.amazon.com/RasTech-Raspberry-Starter-Heatsink-Screwdriver/dp/B0C8LV6VNZ/ref=sr_1_4?crid=3506HY00MCGVM&dib=eyJ2IjoiMSJ9._zkM62vSQ8p7tNr88715LdMv_qHh72Je-tkF9PXEa3chDE53QT4aZu4AGAb4ihE61QY4ZD55nKF6Fp2Kfs8t7AbafM_JrlJFfHo9OB4eAVGqa0EB-7aoBQHPmhKHZ2MW8ny-Kd44bMVlVxPlTWVk5YHIN5P3uKVqrE5Dcal0rKkHny-O6Xyb5ux2AOU6OwVbkag_bqBX66RQNRrgBuz-0pS43mcx93IZTQA9R8NaJJypYU2HAycp-XicTFmyU60a01Nfm9iuyo6B9yA8ppN3OQQyJ-NQ9xyNPxfTLwkqtng.yAYpU6outhQcZmOZhN9Wb6yTw7A85CNUbXZguGInZNg&dib_tag=se&keywords=raspberry%2Bpi%2Bkit&qid=1718848547&s=electronics&sprefix=rasbperry%2Bpi%2Bkit%2Celectronics%2C83&sr=1-4&th=1"> Link </a> |
 | Item Name | What the item is used for | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
 | Item Name | What the item is used for | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
 
