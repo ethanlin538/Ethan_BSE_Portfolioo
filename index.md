@@ -48,10 +48,10 @@ For your second milestone, explain what you've worked on since your previous mil
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Hk_1bXw5oVo?si=jYADtwLQSgQXHO5M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 For your first milestone, describe what your project is and how you plan to build it. You can include:
-- An explanation about the different components of your project and how they will all integrate together
-- Technical progress you've made so far
-- Challenges you're facing and solving in your future milestones
-- What your plan is to complete your project
+- Currently, my project is comprised of a chasis, motors, a Rasberry Pi, ultrasonic sensors, batteries, and an H-Bridge. First, the chasis is the base of my robot, it allows the robot to move in different directions with the aid of the motors and wheels. Second, the Rasberry Pi acts as the brain, it stores code and information for the ultrasonic sensors and motors to process, in which they can then execute. Lastly, the batteries power the H-Bridge, which allows for a different direction of spin from the motors, altering the way that they can move. 
+- I've constructed a majority of my robot so far, aside from the camera which was defective, the ultrasonic sensors are connected to a Rasberry Pi through a breadboard and wires, and similiarly with the motors and H-Bridge. 
+- A challenge I faced was setting up the ssh. Before connecting the Rasberry Pi remotely to my computer, I had to write information into the Rasberry Pi, giving it a username, hostname and a network to connect to. A problem I had with this was that the Rasberry Pi kept storing old information, stopping any connection to my Mac from happening. I overcame this my rewriting the storage on the Pi and resetting it. For my future milestones, I hope to finish my base project and start adding modifications to it.
+- My plan is to finish the base project by this week, and start on modifications the next. I want to have as much time as possible to have creative freedom over my own project. 
 
 # Schematics 
 Here's where you'll put images of your schematics. [Tinkercad](https://www.tinkercad.com/blog/official-guide-to-tinkercad-circuits) and [Fritzing](https://fritzing.org/learning/) are both great resoruces to create professional schematic diagrams, though BSE recommends Tinkercad becuase it can be done easily and for free in the browser. 
