@@ -31,12 +31,12 @@ For your final milestone, explain the outcome of your project. Key details to in
 
 # Second Milestone
 
-**Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/y3VAmNlER5Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-For your second milestone, explain what you've worked on since your previous milestone. You can highlight:
-- Technical details of what you've accomplished and how they contribute to the final goal
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Lsc_K4YmL-I?si=gdO5KxqG5OnVFosu" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+
+- I finished construction of the whole robot, with 2 ultrasonic sensors on the left and right of the hood, and the camera in the center. The Rasberry Pi sits behind these 3 components with the breadboard sitting on top of a portable charger in front of a battery pack. In addition, there is an H-Bridge to allow the motors to spin in other directions and wires connecting all main components together allowing them to work in unison. 
 - What has been surprising about the project so far
 - Previous challenges you faced that you overcame
 - What needs to be completed before your final milestone 
