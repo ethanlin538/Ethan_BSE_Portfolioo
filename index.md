@@ -36,10 +36,9 @@ For your final milestone, explain the outcome of your project. Key details to in
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Lsc_K4YmL-I?si=gdO5KxqG5OnVFosu" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 
-- I finished construction of the whole robot, with 2 ultrasonic sensors on the left and right of the hood, and the camera in the center. The Rasberry Pi sits behind these 3 components with the breadboard sitting on top of a portable charger in front of a battery pack. In addition, there is an H-Bridge to allow the motors to spin in other directions and wires connecting all main components together allowing them to work in unison. 
-- What has been surprising about the project so far
-- Previous challenges you faced that you overcame
-- What needs to be completed before your final milestone 
+- I finished construction of the whole robot, with 2 ultrasonic sensors on the left and right of the hood, and the camera in the center. The Rasberry Pi sits behind these 3 components with the breadboard sitting on top of a portable charger in front of a battery pack. In addition, there is an H-Bridge to allow the motors to spin in other directions and wires connecting all main components together allowing them to work in unison. Next, I optimized the code to further increase the efficiency of the robot, allowing it to move in quicker shorter movements rather than longer slower movements. Lastly, I decreased the resolution and reduced the number of loops the code had to increase the speed at which my camera could process things.
+- A problem that I overcame was the wiring of my robot and how quickly it became complicated. Keeping track of 3 different components using a single breadboard was extremely challenging, most of the time I couldn't even tell where each wire led to. I fixed this by organizing my breadboard into sections, one for each component, this allowed me to keep track of anything without it becoming too complicated. This method also allowed me to add more wires as I worked. 
+- Before my final milestone, I would like to complete multiple modifications to my robot. A couple modifications I had in mind are using gesture controls, mounting the camera on a pan-tilt camera and allowing the camera to detect objects other than a ball.
 
 # First Milestone
 
