@@ -56,14 +56,25 @@ Here's where you'll put images of your schematics. [Tinkercad](https://www.tinke
 
 # Code
 ```c++
-void setup() {
-  // put your setup code here, to run once:
-  Serial.begin(9600);
-  Serial.println("Hello World!");
-}
+<div style="
+  height: 350px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  background-color: #1e1e1e;
+  color: white;
+  padding: 15px;
+  border-radius: 8px;
+">
+  <pre style="
+    margin: 0;
+    white-space: pre-wrap;
+    overflow-wrap: anywhere;
+    word-break: break-word;
+    font-family: Consolas, monospace;
+    font-size: 14px;
+    line-height: 1.5;
+  "><code>
 
-void loop() {
-  // put your main code here, to run repeatedly:
 from picamera2 import Picamera2
 import RPi.GPIO as GPIO
 import time
@@ -565,8 +576,8 @@ finally:
         p.stop()
     GPIO.cleanup()
 
-}
-```
+  </code></pre>
+</div>
 
 # Bill of Materials
 Here's where you'll list the parts in your project. To add more rows, just copy and paste the example rows below.
