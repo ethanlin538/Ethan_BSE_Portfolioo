@@ -624,7 +624,7 @@ finally:
 
 # Other Resources/Examples
 
-- [Example 1](https://www.instructables.com/Ball-Tracking-Robot/)
+- [Resource 1](https://www.instructables.com/Ball-Tracking-Robot/)
 
 
 
