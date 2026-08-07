@@ -72,7 +72,7 @@ My greatest triumph was setting up the gesture control function in my robot. Ins
 - My plan is to finish the base project by this week, and start on modifications the next. I want to have as much time as possible to have creative freedom over my own project. 
 
 # Schematics 
-Here's where you'll put images of your schematics. [Tinkercad](https://www.tinkercad.com/blog/official-guide-to-tinkercad-circuits) and [Fritzing](https://fritzing.org/learning/) are both great resoruces to create professional schematic diagrams, though BSE recommends Tinkercad becuase it can be done easily and for free in the browser. 
+file:///Users/ethan/Desktop/Screenshot%202026-08-07%20at%201.51.09%E2%80%AFPM.png
 
 # Code
 
