@@ -1,5 +1,5 @@
 # Ball Tracking Robot
-For my BSE project, I built an autonomous robot that tracks a red ball, avoids obstacles, and can be controlled with hand gestures.
+For my BSE project, I built an autonomous robot that tracks a red ball and that can avoid obstacles while being controlled by gestures. My robot utilises a Rasberry pi to communicate to various components such as my camera, breadboard, H-Bridge, ultrasonic sensors, and motors, the camera can be controlled with servos that move left to right, or up and down. The camera centers the ball in each image it takes, centering the ball.
 
 
 
