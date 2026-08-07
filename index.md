@@ -1,9 +1,6 @@
 # Ball Tracking Robot
 For my BSE project, I built an autonomous robot that tracks a red ball, avoids obstacles, and can be controlled with hand gestures.
-```HTML 
-<!--- This is an HTML comment in Markdown -->
-<!--- Anything between these symbols will not render on the published site -->
-```
+
 
 
 |:--:|:--:|:--:|:--:|
