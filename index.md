@@ -29,28 +29,28 @@ My greatest triumph was setting up the gesture control function in my robot. Ins
 
 # Hardware / electronics
 
-Learned the difference between BOARD and BCM pin numbering, and had to standardize my whole script on BCM since ServoKit/Blinka forces it
-Learned how ultrasonic sensors measure distance by timing a ping and its echo, then converting that time into distance
-Learned why the Pi's GPIO pins can't drive motors on their own, and how an H-bridge steps in as the driver
-Learned how PWM controls motor speed by switching power on and off rapidly, and how driving the wheels differently makes the robot turn
-Learned how to control my pan-tilt camera mount over I2C using a separate PCA9685 board, and figured out that jitter was a power issue, not a wiring issue
-Ran into breadboard wiring issues with split power rails and shared ground pins, and learned to isolate them with a direct jumper-wire test
+- Learned the difference between BOARD and BCM pin numbering, and had to standardize my whole script on BCM since ServoKit/Blinka forces it
+- Learned how ultrasonic sensors measure distance by timing a ping and its echo, then converting that time into distance
+- Learned why the Pi's GPIO pins can't drive motors on their own, and how an H-bridge steps in as the driver
+- Learned how PWM controls motor speed by switching power on and off rapidly, and how driving the wheels differently makes the robot turn
+- Learned how to control my pan-tilt camera mount over I2C using a separate PCA9685 board, and figured out that jitter was a power issue, not a wiring issue
+- Ran into breadboard wiring issues with split power rails and shared ground pins, and learned to isolate them with a direct jumper-wire test
 
 # Computer vision / gesture recognition
 
-Learned how my ball-tracking system finds "red" by converting frames to HSV and thresholding a hue range, rather than recognizing the ball's shape
-Used OpenCV to find the largest region matching a color mask through contours and blob detection
-Learned to isolate my hand using YCrCb color space, then classify gestures by aspect ratio, solidity, and convexity defects to tell a fist from a peace sign
-Realized that image-processing kernels built for ball detection can quietly mess up gesture detection when reused without adjusting them
+- Learned how my ball-tracking system finds "red" by converting frames to HSV and thresholding a hue range, rather than recognizing the ball's shape
+- Used OpenCV to find the largest region matching a color mask through contours and blob detection
+- Learned to isolate my hand using YCrCb color space, then classify gestures by aspect ratio, solidity, and convexity defects to tell a fist from a peace sign
+- Realized that image-processing kernels built for ball detection can quietly mess up gesture detection when reused without adjusting them
 
 # Debugging methodology
 
-Learned to isolate variables by writing a minimal test script for just one component, instead of debugging blind inside the full robot script
-Learned to read printed diagnostic values like area, aspect, and solidity to tune thresholds against real data instead of guessing
+- Learned to isolate variables by writing a minimal test script for just one component, instead of debugging blind inside the full robot script
+- Learned to read printed diagnostic values like area, aspect, and solidity to tune thresholds against real data instead of guessing
 
 # Tooling / infrastructure
 
-Set up SSH and RealVNC for headless remote control of the Pi from my Mac, and troubleshot stale network/connection info along the way
+- Set up SSH and RealVNC for headless remote control of the Pi from my Mac, and troubleshot stale network/connection info along the way
 
 
 
