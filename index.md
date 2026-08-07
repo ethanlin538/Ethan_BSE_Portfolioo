@@ -4,7 +4,8 @@ For my BSE project, I built an autonomous robot that tracks a red ball and that 
 
 
 |:--:|:--:|:--:|:--:|
-| Ethan L | Palo Alto High School | Electrical Engineering | Incoming Junior
+| Engineer | High School | Area of Interest | Grade
+| Ethan | Palo Alto High School | Electrical Engineering | Incoming Junior
 
 
 
