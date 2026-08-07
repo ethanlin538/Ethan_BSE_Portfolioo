@@ -19,13 +19,40 @@ You should comment out all portions of your portfolio that you have not complete
 
 **Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Hk_1bXw5oVo?si=jYADtwLQSgQXHO5M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/nYEQcfX-JrY?si=0QiwvCethCimm3Qn" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-For your final milestone, explain the outcome of your project. Key details to include are:
-- What you've accomplished since your previous milestone
-- What your biggest challenges and triumphs were at BSE
-- A summary of key topics you learned about
-- What you hope to learn in the future after everything you've learned at BSE
+Since my last milestone, I've added two modifications to my robot. The first was adding gesture control, which allows it to switch between two modes: either halting the motors completely or allowing it to function in its normal tracking mode. The second modification was mounting my camera on a pan-tilt module, which allows it to move up and down, and side to side.
+
+In addition, I've added a button on a breadboard which allows the robot to stop or start scanning for new gestures. This function allows the robot to avoid scanning for new gestures unnecessarily when it's already in a currently desired mode.
+
+My biggest challenge at BSE was definitely setting up the remote connection between my Mac and the Pi. Because the Pi doesn't have a physical monitor, I had to create a remote connection between my Mac and the Raspberry Pi. This starts with writing data onto the Pi, including a hostname, username, and Wi-Fi connection. A major problem I had was that the Pi kept storing old information, which prevented a connection. This was my greatest problem because until I could fix it, I couldn't troubleshoot my robot or test any code at all.
+
+My greatest triumph was setting up the gesture control function in my robot. Instead of just detecting color for the ball, it now also detects shape, which allows it to detect my skin color and the shape of my hand.
+
+Hardware / electronics
+
+Learned the difference between BOARD and BCM pin numbering, and had to standardize my whole script on BCM since ServoKit/Blinka forces it
+Learned how ultrasonic sensors measure distance by timing a ping and its echo, then converting that time into distance
+Learned why the Pi's GPIO pins can't drive motors on their own, and how an H-bridge steps in as the driver
+Learned how PWM controls motor speed by switching power on and off rapidly, and how driving the wheels differently makes the robot turn
+Learned how to control my pan-tilt camera mount over I2C using a separate PCA9685 board, and figured out that jitter was a power issue, not a wiring issue
+Ran into breadboard wiring issues with split power rails and shared ground pins, and learned to isolate them with a direct jumper-wire test
+
+Computer vision / gesture recognition
+
+Learned how my ball-tracking system finds "red" by converting frames to HSV and thresholding a hue range, rather than recognizing the ball's shape
+Used OpenCV to find the largest region matching a color mask through contours and blob detection
+Learned to isolate my hand using YCrCb color space, then classify gestures by aspect ratio, solidity, and convexity defects to tell a fist from a peace sign
+Realized that image-processing kernels built for ball detection can quietly mess up gesture detection when reused without adjusting them
+
+Debugging methodology
+
+Learned to isolate variables by writing a minimal test script for just one component, instead of debugging blind inside the full robot script
+Learned to read printed diagnostic values like area, aspect, and solidity to tune thresholds against real data instead of guessing
+
+Tooling / infrastructure
+
+Set up SSH and RealVNC for headless remote control of the Pi from my Mac, and troubleshot stale network/connection info along the way
 
 
 
